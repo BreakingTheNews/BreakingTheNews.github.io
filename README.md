@@ -1,13 +1,15 @@
 # Breaking the News
-## Blocking the BBC News Breaking Banner and Playing Pranks
+## Blocking the BBC News website Breaking News banner and Drumpfinating
 
-Want the BBC NEWS website to look like this?
+The BBC News webiste has an annoying Breaking News popup. To block it simply add this entry to your hosts file:
+```
+0.0.0.0 polling.bbc.co.uk
+```
+There is a sample file [here](https://raw.githubusercontent.com/BreakingTheNews/BreakingTheNews.github.io/master/hosts).
 
-[![BREAKING NEWS](https://unop.uk/wp-content/uploads/2015/07/BAD-BREAKING.png "BREAKING NEWS")](https://unop.uk/dev/breaking-the-news-blocking-the-bbc-news-breaking-banner-and-playing-pranks/)
-
-Then simply add this entry to your hosts file:
+If you also want to [Make Donald Drumpf Again](http://donaldjdrumpf.com/) then add this entry to your hosts file instead:
 ```
 192.30.252.153 polling.bbc.co.uk
 ```
-
-Full write-up at: https://unop.uk/dev/breaking-the-news-blocking-the-bbc-news-breaking-banner-and-playing-pranks
+This will not only hide the Breaking News banner but will also replace every instance of the word Trump with the word Drumpf on the BBC News website.
+There is a sample file [here](https://raw.githubusercontent.com/BreakingTheNews/BreakingTheNews.github.io/master/prank).
