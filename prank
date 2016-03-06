@@ -1,0 +1,5 @@
+# This hosts file hides the BBC news website Breaking News banner and replaces Trump with Drumpf
+# 
+# https://raw.githubusercontent.com/BreakingTheNews/BreakingTheNews.github.io/master/prank
+# Project page: https://github.com/BreakingTheNews/BreakingTheNews.github.io
+192.30.252.153 polling.bbc.co.uk
